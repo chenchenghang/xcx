@@ -1,0 +1,138 @@
+body {
+width: 100vw;
+background: #fff;
+}
+
+.guest-photos-container {
+width: 100%;
+min-height: 100vh;
+padding: 0 29.9rpx;
+}
+
+.guset-photos-title {
+color: #353535;
+font-weight: bold;
+padding: 19.4rpx 0 50rpx 0;
+position: relative;
+}
+
+.guset-photos-tabs {
+width: 100%;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: space-between;
+justify-content: space-between;
+font-size: 23.6rpx;
+color: #101010;
+background: #fff;
+}
+
+.guset-photos-green {
+color: #09bb07;
+}
+
+.guset-photos-tab {
+width: 157.6rpx;
+height: 103.5rpx;
+background: #f8f8fa;
+word-break: break-all;
+padding: 5.6rpx 9.7rpx;
+font-weight: bold;
+line-height: 45.8rpx;
+border-radius: 3.5rpx;
+text-align: center;
+}
+
+.guest-photos-header {
+width: 100%;
+padding: 0 29.9rpx 23.6rpx 29.9rpx;
+background: #fff;
+position: fixed;
+left: 0;
+top: 0;
+z-index: 100;
+}
+
+.guset-photos-mask {
+width: 100vw;
+height: 100vh;
+position: fixed;
+left: 0;
+top: 0;
+background: rgba(0, 0, 0, 0.5);
+z-index: 90;
+}
+
+.guset-photos-subtabs {
+width: 100%;
+position: absolute;
+left: 0;
+top: 261.8rpx;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: space-between;
+justify-content: space-between;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
+padding: 0px 29.9rpx;
+background: #fff;
+}
+
+.guset-photos-subtab {
+width: 216rpx;
+height: 71.5rpx;
+font-size: 23.6rpx;
+color: #101010;
+background: #f8f8fa;
+margin-bottom: 19.4rpx;
+border-radius: 3.5rpx;
+text-align: center;
+line-height: 71.5rpx;
+}
+
+.guest-photos-list {
+width: 100%;
+padding: 261.8rpx 0px 0px;
+position: relative;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: flex-start;
+align-items: flex-start;
+-webkit-justify-content: space-between;
+justify-content: space-between;
+}
+
+.guest-photos-column {
+width: calc((100% - 9.7rpx) / 2);
+display: -webkit-flex;
+display: flex;
+-webkit-flex-flow: column wrap;
+flex-flow: column wrap;
+}
+
+.guest-photos-item {
+width: 100%;
+-webkit-align-self: center;
+align-self: center;
+margin-bottom: 13.9rpx;
+}
+
+.guest-photos-img {
+width: 100%;
+border: 1.4rpx solid #f1f3f6;
+padding: 7.6rpx 0;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+
+.guest-photos-img>wx-image {
+width: 95%;
+}

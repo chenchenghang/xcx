@@ -1,0 +1,8 @@
+<view class="template-select-container">
+  <view class="template-select-tabs">
+  </view>
+  <view class="template-select-content">
+  </view>
+  <view class="template-bottom-bar ">
+  </view>
+</view>

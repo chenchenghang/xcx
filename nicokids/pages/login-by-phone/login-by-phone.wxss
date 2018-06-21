@@ -1,0 +1,55 @@
+.login-phone-container {
+padding: 0 29.9rpx;
+}
+
+.login-title {
+padding: 29.9rpx 0 39.6rpx 0;
+}
+
+.login-input-wrapper {
+position: relative;
+}
+
+.send-code-input {
+margin-top: 39.6rpx;
+}
+
+.login-input-wrapper wx-input {
+height: 89.6rpx;
+line-height: 89.6rpx;
+font-size: 31.9rpx;
+padding: 0 9.7rpx;
+border-bottom: 0.7rpx solid #f1f3f6;
+}
+
+.button-login {
+width: 100%;
+height: 100rpx;
+line-height: 95.8rpx;
+margin-top: 35.4rpx;
+}
+
+.send-code-wrapper {
+height: 89.6rpx;
+line-height: 89.6rpx;
+padding: 0 19.4rpx;
+position: absolute;
+right: 0;
+top: 0;
+color: #FFFFFF;
+z-index: 10;
+}
+
+.send-code-trigger {
+font-size: 31.9rpx;
+color: #09bb07;
+}
+
+.send-code-trigger-disabled {
+opacity: 0.6;
+}
+
+.send-code-tip {
+font-size: 31.9rpx;
+color: #aaa;
+}

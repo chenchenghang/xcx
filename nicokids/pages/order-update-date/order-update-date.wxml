@@ -1,0 +1,32 @@
+<view class="pick-date-container">
+  <view class="pick-date-title font-title">选档期</view>
+  <view class="calender-container">
+    <view class="flex box box-tb box-align-center">
+      <view class="calendar pink-color box box-tb">
+        <view class="top-handle fs28 box box-lr box-align-center box-pack-center">
+          <view bindtap="handleCalendar" class="prev box box-rl" data-handle="prev">
+            <view class="prev-handle box box-lr box-align-center box-pack-center">
+            </view>
+          </view>
+          <view bindtap="chooseYearAndMonth" class="date-area box box-lr box-align-center box-pack-center">-- 年 -- 月</view>
+          <view bindtap="handleCalendar" class="next box box-lr" data-handle="next">
+            <view class="next-handle box box-lr box-align-center box-pack-center">>
+            </view>
+          </view>
+        </view>
+        <view class="weeks box box-lr box-pack-center box-align-center">
+        </view>
+        <view class="days box box-lr box-wrap">
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="time-container">
+    <view class="time-title">拍摄时间</view>
+    <radio-group bindchange="timeChange" class="time-list">
+    </radio-group>
+    <view class="time-title">拍摄时间</view>
+    <view class="time-choosed">年月日（周四）</view>
+  </view>
+  <view bindtap="openModal" class="pick-bottom-bar ">下一步</view>
+</view>

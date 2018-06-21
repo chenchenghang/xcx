@@ -1,0 +1,12 @@
+<!--package-info    -->
+<template name="package-info">
+	<view class="package-info">
+		<view class="package-choose">请选择套餐</view>
+		<view class="package-options">
+			<virtual>
+			</virtual>
+		</view>
+		<virtual>
+		</virtual>
+	</view>
+</template>

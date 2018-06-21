@@ -1,0 +1,112 @@
+<view class="page page-container nico-order-info " scrollY="true">
+  <form bindreset="formReset" bindsubmit="formSubmit">
+    <view class="page__hd">
+      <view class="page0-title page-title">预定信息</view>
+    </view>
+    <view class="page__bd" style="padding-bottom: 120rpx;">
+      <view class="weui-cells__title">联系方式</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">家长称呼</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="contact.name" placeholder="请填写" value="undefined">
+            </input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">手机</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="contact.mobile" placeholder="请填写" value="undefined">
+            </input>
+          </view>
+        </view>
+      </view>
+      <view class="weui-cells__title">宝宝信息</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">姓名</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="child.name" placeholder="宝宝姓名" value="undefined">
+            </input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">小名</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="child.nickname" placeholder="宝宝小名" value="undefined">
+            </input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">性别</view>
+          </view>
+          <view class="weui-cell__bd radio-group weui-input">
+            <radio-group bindchange="bindRadioChange">
+            </radio-group>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">生日</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker bindchange="bindDateChange" end="2018-06-01" mode="date" name="child.birthday" start="2000-01-01" value="undefined">
+              <view class="weui-input">请选择生日</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      <view class="weui-cells__title">相册收件信息</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">收件地址</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="shipping_address.address" placeholder="收件地址" value="undefined">
+            </input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">收件人</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="shipping_address.recipient" placeholder="收件人" value="undefined">
+            </input>
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">联系电话</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="shipping_address.mobile" placeholder="联系电话" value="undefined">
+            </input>
+          </view>
+        </view>
+      </view>
+      <view class="weui-cells__title">*是否同意 NICOKIDS 将拍摄作品用于客片展示</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__bd">
+            <radio-group bindchange="bindAgreementRadioChange">
+            </radio-group>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view bindtap="openModal" class="button-bottom  ">
+      <button class="button" formType="submit" type="primary">下一步</button>
+    </view>
+  </form>
+</view>

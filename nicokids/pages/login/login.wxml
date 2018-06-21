@@ -1,0 +1,7 @@
+<view class="order-login-container">
+  <image src="https://nicokids-storage.oss-cn-hangzhou.aliyuncs.com/mp-images/nicokids-logo.png">
+  </image>
+  <view class="login-tip">登录后继续操作</view>
+  <button bindgetphonenumber="quickLogin" class="button-filled-green button-auto-login" openType="getPhoneNumber">微信快捷登录</button>
+  <button bindtap="loginByPhone" class="button-bordered-gray button-login">手机验证登录</button>
+</view>

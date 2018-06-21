@@ -1,0 +1,7 @@
+<!--artwork-tabs    -->
+<template  name="artwork-tabs">
+  <view  class="artwork-tabs">
+    <virtual>
+    </virtual>
+  </view>
+</template>

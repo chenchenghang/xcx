@@ -1,0 +1,18 @@
+<form bindsubmit="loginByPhone">
+  <view class="login-phone-container">
+    <view class="font-title login-title">手机号登录</view>
+    <view class="login-input-wrapper">
+      <input autoFocus="true" bindinput="bindInputPhone" name="phone"  value='18324254558'placeholder="输入手机号" type="number" >
+      </input>
+    </view>
+    <view class="login-input-wrapper send-code-input">
+      <input bindinput="bindInputAuthCode" name="authcode" placeholder="输入验证码" value='' type="number">
+      </input>
+      <view class="send-code-wrapper">
+        <view bindtap="sendCodeHandler" class="send-code-trigger send-code-trigger" >发送验证码{{time}}</view>
+        <view class="send-code-tip"  hidden="true">重新发送（）</view>
+      </view>
+    </view>
+    <button class="button-filled-green button-login button-login-disabled" formType="submit">登录</button>
+  </view>
+</form>

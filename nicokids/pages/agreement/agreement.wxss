@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  background: #fff;
+  font-size: 27.8rpx;
+  line-height: 1.75;
+}
+
+.faq-container {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 3.5rpx 29.9rpx;
+  color: #000;
+}
+
+.faq-title {
+  font-weight: bold;
+  padding: 19.4rpx 0 29.9rpx 0;
+}
+
+.faq-subtitle {
+  font-weight: bold;
+  padding: 19.4rpx 0;
+}
+
+.faq-tip {
+  margin-bottom: 35.4rpx;
+}
+
+.faq-subtip {
+  margin-top: 29.9rpx;
+  overflow: auto;
+}

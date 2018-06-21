@@ -1,0 +1,123 @@
+.pick-date-title {
+padding: 19.4rpx 29.9rpx 50rpx 29.9rpx;
+}
+
+.time-container {
+padding: 50rpx 29.9rpx;
+}
+
+.time-title {
+font-size: 23.6rpx;
+text-align: center;
+color: #878787;
+}
+
+.time-list {
+font-size: 55.6rpx;
+font-weight: bold;
+padding: 19.4rpx 39.6rpx;
+display: -webkit-flex;
+display: flex;
+-webkit-justify-content: space-around;
+justify-content: space-around;
+}
+
+.time-choosed {
+text-align: center;
+font-weight: bold;
+font-size: 51.4rpx;
+margin-top: 19.4rpx;
+}
+
+.pick-bottom-bar {
+width: 100%;
+height: 100rpx;
+line-height: 100rpx;
+position: fixed;
+bottom: 0;
+left: 0;
+text-align: center;
+font-size: 35.4rpx;
+background: #20b922;
+color: #fff;
+}
+
+.pick-date-modal {
+width: 100vw;
+height: 100vh;
+position: fixed;
+left: 0;
+top: 0;
+z-index: 1000;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+}
+
+.modal-mask {
+width: 100vw;
+height: 100vh;
+position: fixed;
+left: 0;
+top: 0;
+background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+width: 687.5rpx;
+height: 385.4rpx;
+background: #fff;
+position: relative;
+border-radius: 9.7rpx;
+box-shadow: 3.5rpx 3.5rpx 5.6rpx rgba(0, 0, 0, 0.5);
+}
+
+.modal-button-group {
+width: 100%;
+height: 87.5rpx;
+font-size: 35.4rpx;
+line-height: 87.5rpx;
+text-align: center;
+position: absolute;
+left: 0;
+bottom: 0;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.modal-button-group>wx-button {
+width: 50%;
+height: 100%;
+border: none;
+outline: none;
+background: none;
+color: #c2a469;
+border-radius: 0;
+}
+
+wx-button.confirm-button {
+background: #259b24;
+color: #fff;
+}
+
+.modal-subtitle {
+width: 100%;
+padding-top: 53.5rpx;
+text-align: center;
+font-size: 27.8rpx;
+color: #101010;
+margin-bottom: 27.8rpx;
+}
+
+.modal-text {
+width: 100%;
+text-align: center;
+font-size: 39.6rpx;
+color: #101010;
+line-height: 53.5rpx;
+}

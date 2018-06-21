@@ -1,0 +1,20 @@
+<view class="send-word-container">
+  <view class="send-word-title font-title">写寄语</view>
+  <form bindsubmit="wordsSubmit">
+    <view class="add-words">
+      <view class="add-words-control">
+        <view>添加寄语：</view>
+        <switch checked="true" bindchange="switchChangeHandler" class="add-words-switch" name="switch">
+        </switch>
+      </view>
+    </view>
+    <view class="retouching-requirements">
+      <view>修片要求： </view>
+      <view class="retouching-textarea">
+        <textarea hidden="undefined" name="requirements">
+        </textarea>
+      </view>
+    </view>
+    <button class="send-words-submit " formType="submit" hoverClass="button-filled-green-hover">提交</button>
+  </form>
+</view>

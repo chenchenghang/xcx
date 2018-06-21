@@ -1,0 +1,7 @@
+<view class="big-photos-container">
+  <view class="big-photos-swiper">
+    <swiper autoplay="true" indicatorDots="true">
+    </swiper>
+  </view>
+  <button bindtap="savePhotosHandler" class="big-photos-save " hoverClass="button-filled-green-hover">一键保存所有照片到相册</button>
+</view>

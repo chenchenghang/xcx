@@ -1,0 +1,9 @@
+<view class="photos-typesetting-container">
+  <view class="photos-typesetting-title font-title">确认精修排版</view>
+  <view class="photos-typesetting-list">
+  </view>
+  <view class="photos-typesetting-buttons ">
+    <button bindtap="showModalHandler" class="button-bordered-gray photos-typesetting-modify" data-operation="0" hoverClass="button-bordered-gray-hover">我有修改意见</button>
+    <button bindtap="showModalHandler" class="button-filled-green photos-typesetting-confirm" data-operation="1" hoverClass="button-filled-green-hover">确认排版</button>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<!--copyright    -->
+<template name="copyright">
+  <view class="page__bd nico-brand">
+    <view class="nico-brand-logo">
+      <image mode="aspectFit" src="http://nicokids-storage.oss-cn-hangzhou.aliyuncs.com/mp-images/nicokids-logo.png">
+      </image>
+    </view>
+    <view class="nico-brand-copyright">
+      由
+      <b>尼可科技</b>强力驱动
+    </view>
+    <view class="nico-brand-copyright">
+      POWERED BY NICOKIDS
+    </view>
+  </view>
+</template>

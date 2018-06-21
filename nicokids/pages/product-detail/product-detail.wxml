@@ -1,0 +1,3 @@
+<import  src="../copyright.wxml"  />
+<import  src="../artwork-tabs.wxml"  />
+<import  src="../../components/package-info/index.wxml"  />

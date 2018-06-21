@@ -1,0 +1,13 @@
+<view class="pick-date-container  ">
+  <view class="pick-date-title font-title">选择新档期</view>
+  <view class="time-container pt0">
+  </view>
+  <view class="time-container">
+    <view class="time-title">请选择拍摄日期</view>
+    <radio-group bindchange="chooseInventory" class="time-list">
+    </radio-group>
+  </view>
+  <view bindtap="openModal" class="button-bottom  ">
+    <button class="button button-disabled" disabled="button-disabled" type="button">确认更改</button>
+  </view>
+</view>

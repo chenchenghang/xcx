@@ -1,0 +1,8 @@
+<view class="home-container">
+  <view class="home-list">
+    <navigator class="home-item" url="/pages/stores/stores">
+      <image mode="widthFix" src="../../assets/home-order.png">
+      </image>
+    </navigator>
+  </view>
+</view>

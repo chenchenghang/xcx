@@ -1,0 +1,33 @@
+<view class="template-result-container">
+  <view class="template-result-title font-title">选片结果</view>
+  <view class="template-result-details">
+    <view class="infos-group">
+      <view class="infos-subtitle">已选张数：</view>
+      <view class="infos-desciptions">35 张</view>
+    </view>
+    <view class="infos-group">
+      <view class="infos-subtitle">支付费用：</view>
+      <view class="infos-desciptions">￥500 元</view>
+    </view>
+    <view class="infos-group">
+      <view class="infos-subtitle">支付状态：</view>
+      <view class="infos-desciptions font-green">已支付</view>
+    </view>
+    <view class="infos-group">
+      <view class="infos-subtitle">支付时间：</view>
+      <view class="infos-desciptions">2018.01.15 19:33:50</view>
+    </view>
+    <view class="infos-group">
+      <view class="infos-subtitle">客户寄语：</view>
+      <view class="infos-desciptions">如果你无法简洁的表达你的想法，那只说明你还不够了解它。 -- 阿尔伯特·爱因斯坦</view>
+    </view>
+    <view class="infos-group">
+      <view class="infos-subtitle">寄语版式：</view>
+      <view class="infos-desciptions">左对齐</view>
+    </view>
+    <view class="infos-group">
+      <view class="infos-subtitle">修片要求：</view>
+      <view class="infos-desciptions">脸修瘦一点。</view>
+    </view>
+  </view>
+</view>

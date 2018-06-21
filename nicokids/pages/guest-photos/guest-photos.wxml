@@ -1,0 +1,15 @@
+<view class="guest-photos-container">
+  <view class="guest-photos-header">
+    <view class="guset-photos-title font-title">
+      客片即样片
+    </view>
+    <view class="guset-photos-tabs">
+    </view>
+  </view>
+  <view class="guest-photos-list">
+    <view class="guest-photos-column">
+    </view>
+    <view class="guest-photos-column">
+    </view>
+  </view>
+</view>

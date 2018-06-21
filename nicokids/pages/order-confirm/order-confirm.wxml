@@ -1,0 +1,42 @@
+<view class="order-detail-container ">
+  <view class="font-title order-detail-title">确认订单</view>
+  <view class="order-infos">
+    <view class="order-info-list">
+      <view class="order-info-head">
+        <view>套餐</view>
+        <view>金额</view>
+      </view>
+    </view>
+    <view class="order-already-pay">
+      <text>应付定金 </text>
+      <text class="amount">￥</text>
+    </view>
+    <view class="order-surplus-pay">拍摄当天支付剩余的 ￥NaN</view>
+    <view class="order-agreement">
+      <checkbox-group bindchange="checkboxChange">
+        <label class="weui-cell weui-check__label">
+          <checkbox bindchange="checkboxChange" checked="undefined" class="weui-check" value="true">
+          </checkbox>
+          <view class="weui-cell__hd weui-check__hd_in-checkbox">
+            <icon class="weui-icon-checkbox_circle" size="23" type="circle">
+            </icon>
+          </view>
+          您已阅读并同意
+          <view bindtap="openAgreement" style="color: #7db1f9;">《尼可儿童摄影服务协议》</view>
+        </label>
+      </checkbox-group>
+    </view>
+    <view class="order-details-tip">
+      <view class="order-tip-title">温馨提示</view>
+      <view class="order-tip-content">
+        <view>- 每位预定成功的客人，都会有一次免费更改档期的机会； </view>
+        <view>- 从第二次开始，需支付定金的 50% 作为改期手续费； </view>
+        <view>- 修改的档期只能安排工作日拍摄，望谅解； </view>
+        <view>- 离拍摄日期三天内（包含拍摄当天）更改档期需全额定金作为档期空缺的费用。</view>
+      </view>
+    </view>
+  </view>
+  <view bindtap="onSubmit" class="button-bottom ">
+    <button class="button button-disabled" disabled="true" type="button">支付定金</button>
+  </view>
+</view>
