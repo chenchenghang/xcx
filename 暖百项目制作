@@ -24,3 +24,9 @@ nuankids.com
    原来接口 验证码/auth/mobile/verify
 
    新验证码接口地址/api/verificationWeChatCodes
+
+ 	原来登陆接口 验证码/auth/mobile/verify
+
+   新验登陆接口地址/auto/mobile/signin
+
+   http://larabbs.test/api/signin

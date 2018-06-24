@@ -3,7 +3,6 @@ var t = getApp(),
 Page({
   data: {
     time: 60,
-     love: 60,
     sended: !1,
     phone: "",
     authcode: ""
@@ -56,10 +55,14 @@ Page({
     }, 1e3)
   },
   loginByPhone: function(e) {
+    console.log("loginByPhone");
+      console.log("t");
+       console.log(t);
     var n = e.detail.value.phone,
       o = e.detail.value.authcode,
       a = t.globalData.code;
-    n ? o ? t.postRequest(t.globalData.BASE_URL + "/auth/mobile/signin", {
+      console.log(t);
+    n ? o ? t.postRequest(t.globalData.BASE_URL + "/api/signin", {
       mobile: n,
       country_code: "86",
       code: o,

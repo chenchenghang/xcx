@@ -1,0 +1,42 @@
+GET https://larabbs.test/v1/auth/profile HTTP/1.1
+charset: utf-8
+Accept-Encoding: gzip
+x-tenant-id: 5a747495ce615177009f6400
+referer: https://servicewechat.com/wxa3e11b3f3c3fa98e/31/page-frame.html
+x-api-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2tleSI6ImdWZUg3Tk1VdHJnY0VEMDlkWWZ4VWc9PSIsImV4cGlyZXNfaW4iOjcyMDAsIm9wZW5pZCI6Im90SHYwME9DeUdId2x2bDRabTRsUmpjN0tOSWMiLCJzb3VyY2UiOiJ3ZWNoYXRfbW9iaWxlIiwiX2lkIjoiNWIyNWQ5ZmQ4MTAxMTYwZTI5NDY5ZTU0IiwiaWF0IjoxNTI5NjI5OTI3LCJwaG9uZU51bWJlciI6IjE1ODU4ODgzNzMzIiwicHVyZVBob25lTnVtYmVyIjoiMTU4NTg4ODM3MzMiLCJjb3VudHJ5Q29kZSI6Ijg2Iiwid2F0ZXJtYXJrIjp7InRpbWVzdGFtcCI6MTUyOTYyOTkxOSwiYXBwaWQiOiJ3eGEzZTExYjNmM2MzZmE5OGUifX0.ynx6dpReHkPVrgeIOn-3fX7ev-2YesxwWIah3rNWOE8
+content-type: application/json
+User-Agent: Mozilla/5.0 (Linux; Android 5.1; m3 note Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.143 Crosswalk/24.53.595.0 XWEB/155 MMWEBSDK/21 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060736) NetType/WIFI Language/zh_CN MicroMessenger/6.6.7.1321(0x26060736) NetType/WIFI Language/zh_CN
+Host: https://larabbs.test
+Connection: Keep-Alive
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.3 (Ubuntu)
+Date: Fri, 22 Jun 2018 01:12:08 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Access-Control-Expose-Headers: ETag
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,PUT,DELETE,PATCH
+Access-Control-Allow-Headers: X-Tenant-Id,X-API-Token,Content-Type,Cache-Control
+Content-Length: 424
+
+{
+  "children": [],
+  "tags": [],
+  "_id": "5b25d9fd8101160e29469e54",
+  "deleted": false,
+  "name": "",
+  "notes": "",
+  "mobile": "15858883733",
+  "wx_openid": {
+    "wxa3e11b3f3c3fa98e": "otHv00OCyGHwlvl4Zm4lRjc7KNIc"
+  },
+  "source": "wechat_mp",
+  "created_at": "2018-06-17T03:48:13.281Z",
+  "updated_at": "2018-06-22T01:12:08.037Z",
+  "country_code": 86,
+  "mobile_verified": true,
+  "id": "5b25d9fd8101160e29469e54"
+}

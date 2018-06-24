@@ -11,9 +11,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.1.0",
-	"appid": "touristappid",
-	"projectname": "nuan",
+	"libVersion": "2.0.9",
+	"appid": "wx413113a7820bb726",
+	"projectname": "nicokids",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

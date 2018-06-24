@@ -9,8 +9,8 @@
       <input bindinput="bindInputAuthCode" name="authcode" placeholder="输入验证码" value='' type="number">
       </input>
       <view class="send-code-wrapper">
-        <view bindtap="sendCodeHandler" class="send-code-trigger send-code-trigger" >发送验证码{{time}}</view>
-        <view class="send-code-tip"  hidden="true">重新发送（）</view>
+        <view bindtap="sendCodeHandler" class="send-code-trigger send-code-trigger" wx:if="{{sended == 0}}">发送验证码</view>
+        <view class="send-code-tip" wx:if="{{sended>0}}" >重新发送（{{time}}）</view>
       </view>
     </view>
     <button class="button-filled-green button-login button-login-disabled" formType="submit">登录</button>
